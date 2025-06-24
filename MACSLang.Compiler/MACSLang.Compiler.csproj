@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\MACSLang.Lexer\MACSLang.Lexer.csproj"/>
+        <ProjectReference Include="..\MACSLang.Parser\MACSLang.Parser.csproj"/>
+        <ProjectReference Include="..\MACSLang.SemanticAnalyzer\MACSLang.SemanticAnalyzer.csproj"/>
+        <ProjectReference Include="..\MACSLang.CodeGenerator\MACSLang.CodeGenerator.csproj"/>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>
